@@ -145,6 +145,7 @@ h1,h2,h3,h4,h5,h6,p{
 ----Primary-Header
 */
 .logo{
+  color:#fff;
   float:left;
   font-size: 35px;
   line-height: 40px;
@@ -157,15 +158,20 @@ h1,h2,h3,h4,h5,h6,p{
   font-size: 12px;
   text-align:right;
 }
+.group
+{
+  background:#3b5998;
+}
 /*
 -------Custom styles---------
 */
 
 body{
+  background: #fff;
   color:#1d2129;
   font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1,h2,h3,h4
+h2,h3,h4
 {
   color:#3b5998;
 }
@@ -198,10 +204,6 @@ cite, em {
 /*
 ---------Links----------
 */
-a:hover{
-  color:#3b5998;
-}
 a{
-color:#3b5998;
 text-decoration: none;
 }
