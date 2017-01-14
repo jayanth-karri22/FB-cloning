@@ -69,6 +69,9 @@ table {
   padding-left:5px ;
   padding-right:5px;
 }
+.col-1-3{
+  padding-left:60px;
+}
 .col-1-3,
 .col-2-3{
    display: inline-block;
@@ -128,10 +131,11 @@ h1,h2,h3,h4,h5,h6,p{
 
 .leader{
   padding: 0 10px 30px 10px;
- 
+  margin-top:30px;
 }
 .leader h3{
   font-size: 21px;
+  font-weight: 600;
 }
 .leader-child
 {
@@ -145,22 +149,22 @@ h1,h2,h3,h4,h5,h6,p{
 ----Primary-Header
 */
 .logo{
-  color:#fff;
   float:left;
   font-size: 35px;
   line-height: 40px;
   font-weight: bold;
-  padding: 40px 0 22px 0;
+  margin:30px 0 10px 160px;
 }
 .login-facebook
 {
-  margin:50px 0 20px 20px;
+  margin:30px 0 20px 30px;
   font-size: 12px;
   text-align:right;
 }
 .group
 {
-  background:#3b5998;
+  background: #3b5998;
+  width:100%;
 }
 /*
 -------Custom styles---------
@@ -168,10 +172,13 @@ h1,h2,h3,h4,h5,h6,p{
 
 body{
   background: #fff;
+  background: -webkit-linear-gradient(#fff,#b0c4de);
+  background:    -moz-linear-gradient(#fff,#b0c4de);
+  background:         linear-gradient(#fff,#b0c4de);
   color:#1d2129;
   font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h2,h3,h4
+h1,h2,h3,h4
 {
   color:#3b5998;
 }
@@ -205,5 +212,10 @@ cite, em {
 ---------Links----------
 */
 a{
+color:#3b5998;  
 text-decoration: none;
+}
+.logo a
+{
+  color:#fff;
 }
