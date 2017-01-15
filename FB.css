@@ -274,13 +274,6 @@ fieldset {
   position: relative;
   cursor:pointer;
 }
-.login-facebook label{
-  display: block;
-  text-align: left;
-  }
-.login-facebook input{
-  display: block;
-  text-align: left;
-}
+
 
 
